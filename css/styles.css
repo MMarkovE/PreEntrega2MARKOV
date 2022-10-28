@@ -15,7 +15,6 @@ body {
 .header {
     background-color: rgb(94, 93, 93);
     height: 80px;
-    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -116,6 +115,26 @@ body {
     .nav-menu_visible {
         left: 0;
     }
+
+    .section__opiniones {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        flex-wrap: wrap;
+    }
+
+    .nuestroServicio__section {
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
 }
 
 /* Banner */
@@ -173,17 +192,15 @@ img {
 
 
 
-.section__mapa {
-  
-}
+.section__mapa {}
 
 .section__formulario {
-    
+
     padding-left: 150px;
-    background-color: rgb(92, 92, 197);
+    background-color: rgb(94, 93, 93);
     width: 600px;
     border-radius: 4px;
-   
+
 }
 
 /* Footer */
@@ -211,4 +228,3 @@ img {
     text-decoration: none;
     color: black;
 }
-
