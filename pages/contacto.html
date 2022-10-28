@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuilFix</title>
+    <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div>
+                <div class="logo__inicio">
+                    <h1>
+                        <a href="../index.html"> <img src="../img/Logo sin fondo.png" alt="Logo" class="logo">
+                        </a>
+                    </h1>
+                </div>
+
+                <nav>
+                    <ul>
+                        <div>
+                            <li class="boton"> <a href="./pages/productos.html" class="boton--colorLetra"> Productos
+                                </a></li>
+                            <li class="boton"> <a href="./pages/servicios.html" class="boton--colorLetra"> Servicios
+                                </a></li>
+                            <li class="boton"> <a href="./pages/quienes somos.html" class="boton--colorLetra"> Quienes
+                                    Somos</a>
+                            </li>
+                            <li class="boton"> <a href="./pages/contacto.html" class="boton--colorLetra"> Contacto</a>
+                            </li>
+                            <li>Carrito</li>
+                            <li>Iniciar Sesión</li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div>
+            <img src="../img/quilfix_banner.jpg" alt="Banner">
+        </div>
+
+
+        <section>
+            <!-- formulario  -->
+            <h2>Contactanos</h2>
+
+            <form action="">
+
+                <div>
+                    <label for="nombre-usuario">Nombre</label>
+                    <input type="text" name="nombre" id="nombre-usuario" required>
+                </div>
+
+                <div>
+                    <label for="email-telefono">Email/Telefono</label>
+                    <input type="email number" name="email-telefono" autocomplete="off" id="email-telefono" required>
+                </div>
+
+                <div>
+                    <label for="motivo-consulta">Motivo de consulta</label>
+                    <select name="motivo de consulta" id="motivo-consulta">
+
+
+                        <option value="">Opciones</option>
+                        <!-- ver el value de arriba. no lleva xq es opciones no tiene valor -->
+                        <option value="servicios">Servicios</option>
+                        <option value="productos">Productos</option>
+                        <option value="otros">Otros</option>
+
+
+
+                    </select>
+                </div>
+
+                <div>
+                    <label for="">Consulta</label>
+                    <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <label for="">¿Querés recibir las ultimas novedades?</label>
+                    <input type="checkbox" name="novedades" value="si-novedades">
+                </div>
+
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+
+    </main>
+    <br>
+    <hr>
+
+    <footer>
+        <section>
+            <div>
+                <br>
+                <h3>Servicios</h3>
+                <br>
+                <ul>
+                    <a href="./pages/servicios.html">
+                        <li>Reparaciones</li>
+                    </a>
+
+                    <a href="./pages/servicios.html">
+                        <li>Actualizaciones</li>
+                    </a>
+
+                    <a href="./pages/servicios.html">
+                        <li>Diagnóstico</li>
+                    </a>
+
+
+                    <a href="./pages/productos.html">
+                        <li>Venta de art. de electrónica</li>
+                    </a>
+                </ul>
+            </div>
+            <br>
+        </section>
+
+
+        <section>
+            <div>
+                <br>
+                <h3>Contactanos</h3>
+                <br>
+                <ul>
+                    <li> +54 11 1234 1234
+                        <img src="./icons/whatsapp.svg" alt="">
+                    </li>
+
+                    <li>Instragram
+                        <img src="./icons/instagram.svg" alt="">
+                    </li>
+
+                    <li>Facebook
+                        <img src="./icons/facebook.svg" alt="">
+                </ul>
+            </div>
+            <br>
+        </section>
+
+        <div class="footer__copyright">
+            <p> CoderHouse © 2022 | Creado por Mauro Markov </p>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
